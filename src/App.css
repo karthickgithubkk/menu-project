@@ -208,6 +208,11 @@ Menu
   border: 0.25rem solid var(--clr-dark);
   border-radius: var(--radius);
   display: block;
+  transition: 2s;
+}
+
+.photo:hover{
+  transform: scale(90%);
 }
 .item-info header {
   display: flex;
